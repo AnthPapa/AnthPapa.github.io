@@ -54,6 +54,14 @@
 	background-position: center center;
 	
 }
+.digMedia-section{
+	color: var(--color-gainsboro)!important;
+	text-align: center;
+	background: url(../image/theGrayOne.png)no-repeat center!important;
+	background-attachment: fixed!important;
+	background-position: center center!important;
+	background-size: cover!important;
+}
 
 .portfolio-section {
 
@@ -70,7 +78,7 @@
 	background-size: cover!important;
 	background-attachment: fixed!important;
 	background-position: center center;
-	padding-bottom:2500px;
+	padding-bottom:3000px;
 	margin:auto;
 	background-position: center center!important;
 }
