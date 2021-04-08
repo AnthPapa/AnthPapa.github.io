@@ -1,209 +1,322 @@
 <!doctype html>
-<html lang="en" manifest="manifest.appcache">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="css/scrolling-nav.css">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>AntPap Portfolio</title>
+  <meta name="description" content="AntPap Portfolio">
+  <meta name="author" content="SitePoint">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/animation.css">
-	<link rel="stylesheet" href="css/font-awesome.css">
-	<link rel= "stylesheet" href="css/mystyles.css">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
 
-    <title>&#x1d11e; A.P. folio</title>
-  </head>
-  
-  <body id="page-top">
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">			
-		<div class="container">
-			 <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
-				 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				 </button>
-					 
-					 <div class="collapse navbar-collapse" id="navbarResponsive">
-						 <ul class="navbar-nav ml-auto">
-							 <li class="nav-item">
-								 <a class="nav-link js-scroll-trigger" href="#about">About</a>
-							 </li>
-								 <li class="nav-item">
-									 <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-								 </li>
-								 <li class="nav-item">
-									 <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-								 </li>
-								<!-- <li class="nav-item">
-									 <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-								 </li>-->
-								 <li class="nav-item">
-									 <a class="nav-link" href="digitalMedia.html">Digital Media</a>
-								 </li>
-						 </ul>
-					 </div>
-		</div>
-	</nav>
-		<!-- Start of Home Section-->
-			<section id="home" class="home-section parallax" >
-  <div class="overlay"></div>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="HunterSimulatorTheGathering.mp4" type="video/mp4">
-  </video>
-			  <div class="container">
-				<div class="row">
-				  <div class="col-lg-8 mx-auto">
-					<h2>Anthony Papageorgiou</h2>
-						<a href="#about" class="btn btn-circle page-scroll js-scroll-trigger">
-						<span class="fa fa-angle-double-down animated"></span>
-						</a> 
-				  </div>
-				</div>
-			  </div>
-			</section>
-		<!--End of Home Section-->
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5px;
+        }
+      }
+	  main{
+	  background-color: black;
+	  }
+	  .top{
+	  color:white;
+	  }
+	  
+	  .card-body{
+	  height:300px;
+	  }
+	  
+	  .card{
+	  height:550px;
+	  }
+	  .navbar-brand{
+	  padding-left:30px;
+	  }
 
-		<!-- Start of about Section-->
-			<section id="about" class="about-section textShadow">
-			  <div class="container">
-				<div class="row">
-				  <div class="col-lg-8 mx-auto">
-					<h2 style="font-size:4vw;">About</h2>
-					<p style="font-size:1.5vw;">I’m Anthony, a Software Development graduate with a passion for Game Development. 
-					During my time at Tafe SA, I worked with another student to create a 2D mobile version of Connect 4 and 3D Hunting Survival Game, both created in Unity. 
-					Despite this not being part of the curriculum, we took the time to learn how to create the game from scratch, creating almost all of our own assets as well as the music and sound effects.</p>
-				  </div>
-				</div>
-			  </div>
-			</section>
-		<!--End of about Section-->
-		
-				<!-- Start of portfolio Section-->
-			<section id="portfolio" class="portfolio-section parallax textShadow">
-			  <div class="container text-center">
-				<div class="row">
-				  <div class="col-lg-8 mx-auto">
-					<h2 style="font-size:4vw;">Skills</h2>
-					<p style="font-size:1.5vw;">
-					Unity Game Engine / Blender / C# Programming Language / Sculptris / GitHub /Adobe Photoshop /Ilustrator /After Effects/ Java/ HTML / css / Java Script / .NET / My SQL / UML 
-					</p>
-				  </div>
-				</div>
-			  </div>
-			</section>
-		<!--End of portfolio Section-->
-		
-		<!-- Start of projects Section-->
-			<section id="projects" class="projects-section parallax">
-			  <div class="container text-center">
-				<div class="row">
-				  <div class="col-lg-8 mx-auto">
-					<h2>Projects</h2>
-					<div>
-						<div>
-							<p>Here is a list of projects I have created most are ideas, concepts and learning projects</p>
-						</div>	
-						<h2>3D Horror</h2>
-							<p>I started with the inspiration of sound stage this ended up being a horror game. This is my first FPS and indoor game which has a major focus on lighting and 3D sound. For best experiance use headphones</p>
-						<div class="videos">
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/a6U0wA_uE7o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/ARzeY2VmUQc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-							</div>
-					</div>
-	
-						<div>
-						<div>
-						<h2>2D Controller</h2>
-							<p>I created this 2D controller to learn sprite sheet animations and to get a fun intuitive result with the character controller.</p>
-						</div>					
-						<div class="videos">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/6pufnyuq9LE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</div>
-					</div>
-					
-					<div>
-						<div>
-						<h2>Connect 4</h2>
-							<p>This was my first game in Unity which I started with a friend at Tafe SA for one of the subjects. This was the start of our Team C-Shark (a pun on C#) which we went on creating multiple games together.</p>
-						</div>					
-						<div class="videos">
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/F7Iw8Bv9_pI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</div>
-					</div>
+    </style>
+</head>
 
-						<div>
-						<h2>Hunter simulator</h2>
-							<p>This game was made completely from scratch from All the trees, character, animation, rabbits, grass, rocks, bow and arrows all created in Blender and sculpted in Sculptris. The game has not been finished but in the videos below the concepts and prototypes can be viewed.</p>
-						</div>					
-						<div class="videos">
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/kSi6hqSRZZw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-							
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/cawLEwr6eB0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a  class="navbar-brand" href="#">AP</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link active" href="index.html">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="education.html">Education</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+
+<main>
+
+  <section class="py-5 text-center container top ">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Anthony Papageorgiou</h1>
+        <p class="lead text-muted">Software and Website Developer</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-dark">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <iframe width="100%" height="225" src="https://www.youtube.com/embed/kSi6hqSRZZw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
+            <div class="card-body">
+			<h4>Hunter Simulator</h4>
+			<h6><i>Team C-Shark</i></h6>
+              <p class="card-text">This game was made completely from scratch from All the trees, character, animation, rabbits, grass, rocks, bow and arrows all created in Blender and sculpted in Sculptris. The game has not been finished. </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">Unity | Blender | C# | Sculptris</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <iframe width="100%" height="225" src="https://www.youtube.com/embed/cawLEwr6eB0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/hoU8Rma-Qa8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+			<h4>Hunter Simulator</h4>
+			<h6><i>Team C-Shark</i></h6>
+              <p class="card-text">Testing bow and arrow projectile and fleeing rabbit mechanics</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">Unity | Blender | C# | Sculptris</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <iframe width="100%" height="225" src="https://www.youtube.com/embed/hoU8Rma-Qa8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						
+            <div class="card-body">
+			<h4>Hunter Simulator</h4>
+			<h6><i>Team C-Shark</i></h6>
+              <p class="card-text">Testing hair physics, third person camera and character animation.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">Unity | Blender | C# </small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <iframe width="100%" height="225" src="https://www.youtube.com/embed/F7Iw8Bv9_pI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-									
-					</div>
-					</div>
-		
-		</div>
-			  </div>
-			</section>
-		<!--End of projects Section-->
-		
-				<!-- Start of contact Section-->
-<!--			<section id="contact" class="contact-section">
-			  <div class="container">
-				<div class="row">
-				  <div class="col-lg-8 mx-auto">
-					<h2>contact</h2>
-					
-					<form>
-					  <div class="form-group">
-						<label for="name">Name</label>
-						<input type="text" class="form-control" id="name" placeholder="eg. john smith"  autocomplete="on">
-					  </div>
-					  <div class="form-group">
-						<label for="email">Email address</label>
-						<input type="text" class="form-control" id="email" placeholder="john@example.com"  autocomplete="on">
-					  </div>
+            <div class="card-body">
+			<h4>Unite 4</h4>
+			<h6><i>Team C-Shark</i></h6>
+              <p class="card-text">A Video of our version off connect 4 we created using Unity and C#. This was team C-Sharks first project using Unity. We created the music, splash screen, UI, game mechanics and sprites. </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">Unity | C# | Adobe Photoshop</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <iframe width="100%" height="225" src="https://www.youtube.com/embed/6pufnyuq9LE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-					  <div class="form-group">
-						<label for="textarea">Example textarea</label>
-						<textarea class="form-control" id="textarea" rows="3"></textarea>
-					  </div>
-						<div class="col-auto">
-						  <button type="submit" class="btn btn-primary mb-2">Submit</button>
-						</div>
-					</form>
-				  </div>
-				</div>
-			  </div>
-			</section>-->
-		<!--End of contact Section-->
-	  <!-- Footer -->
+            <div class="card-body">
+			<h4>2D Character Movement</h4>
+			<h6><i>Personal project</i></h6>
+              <p class="card-text">This is a 2D character controller I created with a sprite sheet the player can double jump, glide, slide, attack and throw projectiles.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">Unity | C# </small>
+				<a style="font-size:20px" href="http://antpap.byethost7.com/2DController/index.html">Play Game</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <iframe width="100%" height="225" src="https://www.youtube.com/embed/QiDzt9bRGLY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+			
+            <div class="card-body">
+			<h4>Parallax</h4>
+			<h6><i>Personal project</i></h6>
+              <p class="card-text">A 2D parallax project I have started, I created the environment background, rain sprite sheet and the wraith using Adobe Photoshop and a rain Unity particle system with collisions.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">Unity | Adobe Photoshop | C#</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <iframe width="100%" height="225" src="https://www.youtube.com/embed/a6U0wA_uE7o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <div class="card-body">
+			<h4>Horror Game Trailer</h4>
+			<h6><i>Personal project</i></h6>
+              <p class="card-text">This is a trailer I made using Adobe premiere for a 3D horror game that I created in Unity. I also created the music. </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">Unity | Adobe Premiere | Cubase 5</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <iframe width="100%" height="225" src="https://www.youtube.com/embed/ARzeY2VmUQc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <div class="card-body">
+			<h4>3D Horror Game</h4>
+			<h6><i>Personal project</i></h6>
+              <p class="card-text">I wanted to create a 3D soundstage experience and ended up with a horror game. I created the environment using Blender and Unity.  </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">Unity | Blender | C#</small>
+              </div>
+            </div>
+          </div>
+        </div>
+		<div class="col">
+          <div class="card shadow-sm">
+				<img src="images/RabbitSculpt2.png">
+            <div class="card-body">
+			<h4>Rabbit Sculpt</h4>
+			<h6><i>Personal project</i></h6>
+              <p class="card-text">I Used sculptris to model this rabbit that was later rigged and animated using blender.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">Sculptris</small>
+              </div>
+            </div>
+          </div>
+        </div>
+       	
+		<div class="col">
+          <div class="card shadow-sm">
+				<img src="images/CaveRender.png">
+            <div class="card-body">
+			<h4>Cave Render</h4>
+			<h6><i>Personal project</i></h6>
+              <p class="card-text">This is a render of a cave created using Blender 2.8 it was later used in a Unity environment. The texture was created using UV mapping from Blender.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">Blender</small>
+              </div>
+            </div>
+          </div>
+        </div>
+				<div class="col">
+          <div class="card shadow-sm">
+				<img src="images/CharacterSculpt.png">
+            <div class="card-body">
+			<h4>Character Sculpt</h4>
+			<h6><i>Personal project</i></h6>
+              <p class="card-text">I used Sculptris to model the character for the Hunter Simulator which was rigged and animated in blender. </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">Sculptris</small>
+              </div>
+            </div>
+          </div>
+        </div>
+				<div class="col">
+          <div class="card shadow-sm">
+				<img width="100%" height="300" src="images/CharacterCloth2.png">
+            <div class="card-body">
+			<h4>Character clothing and Render</h4>
+			<h6><i>Personal project</i></h6>
+              <p class="card-text">I used Blenders cloth simulation to create clothing for the character and lowered the polygon count after the simulation to increase game performance. The clothing used Unity’s cloth simulation for movement. </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">Blender</small>
+              </div>
+            </div>
+          </div>
+        </div>
+ <div class="col">
+          <div class="card shadow-sm">
+				<img src="images/Bfb.png">
+            <div class="card-body">
+			<h4>Html5 Unity Project</h4>
+			<h6><i>Vale Studios</i></h6>
+              <p class="card-text">This was a project my sister and I created for our work simulated class. We decided to create a Html5 Unity game that would be hosted on website. </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">Html | CSS | Bootstrap |<br> Unity | Adobe Photoshop</small>
+				<a style="font-size:20px" href="http://studentserver.com.au/barefootbond/index.html">View the website</a>
+              </div>
+            </div>
+          </div>
+        </div>	
+		
+		
+		
+			<div class="col">
+          <div class="card shadow-sm">
+				<img src="images/Ss.png">
+            <div class="card-body">
+			<h4>Ecommerce Website</h4>
+			<h6><i>Tafe SA Project</i></h6>
+              <p class="card-text">An ecommerce website were the user can register, add products to cart and checkout.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">Html | CSS | PHP |<br> Javascript | MySQL | Xampp</small>
+				<a style="font-size:20px" href="web1.html">View the website</a>
+              </div>
+            </div>
+          </div>
+        </div>
+				<div class="col">
+          <div class="card shadow-sm">
+				<img src="images/Ll.png">
+            <div class="card-body">
+			<h4>Event Website</h4>
+			<h6><i>Tafe SA Project</i></h6>
+              <p class="card-text">A website for a club where a user can register and view event upcoming details. </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">Html | CSS | PHP |<br> Javascript | MySQL | Xampp</small>
+				<a style="font-size:20px" href="web2.html">View the website</a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		
+		
+      </div>
+    </div>
+  </div>
+
+</main>
+
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Anthony Papageorgiou 2020</p>
-    </div>
+      <p class="m-0 text-center text-white">Copyright &copy; Anthony Papageorgiou <script>document.write(new Date().getFullYear())</script> <br/>
+	  <a href="https://www.linkedin.com/in/anthony-papageorgiou-b423391bb/" class="fa fa-linkedin" style="font-size:20px;color:white"></a>
+	  <a href="mailto:papagorgeous@live.com" class="fa fa-envelope" style="font-size:20px;color:white"></a> 
+    </p>
+</div>
     <!-- /.container -->
   </footer>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="jquery/jquery.js" ></script>
-	<script src="jquery/jquery.min.js" ></script>
-	<script src="jquery/jquery.easing.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
-    <script src="js/bootstrap.js" ></script>
-    <script src="js/scrolling-nav.js"></script>
-
-	<script src="dist/calamansi.min.js"></script>
-	
-	<script src="html5gallery/jquery.js"></script>
-    <script src="html5gallery/html5gallery.js"></script>
-	
-
-	
-  </body>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </html>

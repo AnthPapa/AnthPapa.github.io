@@ -1,0 +1,171 @@
+:root {
+  /* sometimes I use HEX colors */
+  	--color-highlight: #fb0000;
+	--color-lightseagreen: #10d3ab;
+	--color-darkslategray: #2C3531;
+	--color-teal: #116466;
+	--color-tan: #D9B08C;
+	--color-navajowhite: #FFCB9A;
+	--color-gainsboro: #D1E8E2;
+}
+.textShadow{
+		color: var(--color-gainsboro)!important;
+	text-shadow: #10d3ab 1px 0 10px;
+}
+.home-section {		
+		color: var(--color-gainsboro)!important;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		background-size: cover;  
+}
+.home-section video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.home-section {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+.myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.about-section {
+	background: url(../image/CaveRender.png);
+	background-attachment: fixed!important;
+	background-position: center center;
+	
+}
+.digMedia-section{
+	color: var(--color-gainsboro)!important;
+	text-align: center;
+	background: url(../image/theGrayOne.png)no-repeat center!important;
+	background-attachment: fixed!important;
+	background-position: center center!important;
+	background-size: cover!important;
+}
+
+.portfolio-section {
+
+	text-align: center;
+	background: radial-gradient(circle, rgba(17,100,102,0.7), rgba(0,0,0,0.7)),url(../image/GameBackground.png)!important;
+	background-size: cover!important;
+	background-attachment: fixed!important;
+	background-position: center center!important;
+}
+.projects-section{
+	color: var(--color-gainsboro)!important;
+	text-align: center;
+	background: radial-gradient(circle, rgba(17,100,102,0.7), rgba(0,0,0,0.7)),url(../image/Rabbit.png)!important;
+	background-size: cover!important;
+	background-attachment: fixed!important;
+	background-position: center center;
+	padding-bottom:3000px;
+	margin:auto;
+	background-position: center center!important;
+}
+
+.contact-section{
+	color: var(--color-navajowhite)!important;
+	/*background: radial-gradient(circle, rgba(17,100,102,1) 0%, rgba(0,0,0,1) 100%);*/
+	background: radial-gradient(circle, rgba(17,100,102,0.7), rgba(0,0,0,0.7)),url(../image/Rabbit.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	
+}
+.form-control {
+  width: 100%;
+  padding: 12px;
+  color: var(--color-darkslategray);
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-top: 6px;
+  background-color: var(--color-gainsboro);
+  margin-bottom: 16px;
+  resize: vertical;
+  box-shadow: 0 0 10px var(--color-lightseagreen);
+}
+.contact-section button {
+  background-color: var(--color-tan);
+  border: none;
+  border-radius: 20px;
+  color: var(--color-darkslategray);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+  box-shadow: 0 0 10px var(--color-lightseagreen);
+}
+.parallax {
+  /* The image used */
+  background-image: url("../image/GameBackground.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar{
+	  background-color: var(--color-darkslategray)!important;
+	  color: var(--color-tan)!important;
+}
+.nav-link{
+		  color: var(--color-tan)!important;
+}
+
+.audio {
+
+    width: 300px;
+    height: 35px;
+}
+
+.audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
+                background: radial-gradient(circle, rgba(209,232,226,1) 31%, rgba(255,203,154,1) 100%);
+}
+@media (min-width: 768px) {
+.carousel-multi-item-2 .col-md-3 {
+float: left;
+width: 25%;
+max-width: 100%; } }
+
+.carousel-multi-item-2 .card img {
+border-radius: 2px; }
+
+.card{
+	width: 400px;
+	height: 280px;
+}
+.img-fluid{
+	width: 400px;
+	height: 280px;
+}
+
+.videos{
+	
+}

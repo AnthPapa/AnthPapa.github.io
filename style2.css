@@ -1,0 +1,24 @@
+
+
+#container{
+	min-height:100vh;
+	position:relative;
+
+}
+.body { 
+    min-height:100%;
+	
+}
+
+ main{
+	height:81.8vh!important;
+	 background-color: black;
+	 font-size: 1.5rem;
+	 padding: 2rem;
+	 color: gray;
+										
+	  text-shadow: #10d3ab 1px 0 10px;
+	  }
+	  	  .navbar-brand{
+	  padding-left:30px;
+	  }
