@@ -1,8 +1,7 @@
 
-
 #container{
-	min-height:100vh;
-	position:relative;
+	/*min-height:100vh;
+	position:relative;*/
 
 }
 .body { 
@@ -11,7 +10,7 @@
 }
 
  main{
-	height:81.8vh!important;
+	 min-height:80vh;
 	 background-color: black;
 	 font-size: 1.5rem;
 	 padding: 2rem;
