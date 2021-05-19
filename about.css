@@ -7,3 +7,63 @@ main{
 	padding-bottom:50px;						
 	  text-shadow: #10d3ab 1px 0 10px;
 	  }
+.portfolio-video {
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+	border-radius: 5px;
+	z-index: 1;
+}
+
+.portfolio-video iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+/*.portfolio-project {
+	margin: 0 auto;
+	width: 1000px;
+	font-family: var(--raleway);
+} */
+
+.portfolio-section {
+	font-family: var(--raleway);
+	padding-top: 60px;
+	/*min-height: 60%!important;
+	padding: 0 0 30px 30px!important;*/
+}
+
+.portfolio-video {
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+	border-radius: 5px;
+	z-index: 1;
+}
+
+.portfolio-video iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.player {
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 1;
+  height: 320px;
+  width: 480px;
+}
+
+portfolio-img {
+	margin: 0 auto;
+	width: 100px;
+}

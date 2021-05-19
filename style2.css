@@ -1,4 +1,5 @@
 
+
 #container{
 	/*min-height:100vh;
 	position:relative;*/
@@ -16,7 +17,7 @@
 	 padding: 2rem;
 	 color: gray;
 										
-	  text-shadow: #10d3ab 1px 0 10px;
+	  /*text-shadow: #10d3ab 1px 0 10px;*/
 	  }
 	  	  .navbar-brand{
 	  padding-left:30px;

@@ -1,0 +1,165 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>AntPap Portfolio</title>
+  <meta name="description" content="AntPap Portfolio">
+  <meta name="author" content="SitePoint">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="about.css" />
+    <!-- Bootstrap core CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<style>
+audio {
+    filter: sepia(10%) saturate(70%) grayscale(0) contrast(99%) invert(20%);
+    width: 100%;
+    height: 25px;
+	background-color:;
+}
+</style>
+</head>
+<div id="container">
+<body class="body">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">AP</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="education.html">Education</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+<main>
+<div class="container">
+				<div class="row">
+				  <div class="col-lg-8 mx-auto">
+								
+						<h6>Cubase 5 + Adobe After Effects</h6>
+						<h3>IT Works intro</h3>
+						<div class="portfolio-video">
+							<iframe src="https://www.youtube.com/embed/AIfj4yFerFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>	
+						<div>
+							<p>
+								This was an intro video for IT Works created in Adobe After Effects. The requirements were a 10 second video which displays the IT works logo, Tafe SA website, and had an effect. 
+							</p>
+							<h4>Native Instruments</h4>
+							<h6>Instruments used</h6>
+							<ul>
+								<li>Brass</li>
+								<li>Violin</li>
+								<li>Smoke Sound FX</li>
+							</ul>
+							<br>
+						</div>
+		
+						<h3>Synth Lord</h3>
+						<div>
+							<audio class="playback" controls='controls' preload="none">
+							<source src="music/massive.mp3" type="audio/mpeg">
+							Your browser does not support the audio element.
+							</audio>
+						</div>	
+						<div>
+							<p>
+								I used Native Instruments Massive Synth with multiple diffrent sounds to give a big sound. The french horn and brass also help to give the track width.
+							</p>
+						<h4>Native Instruments</h4>
+						<h6>Instruments used</h6>
+							<ul>
+								<li>Synth</li>
+								<li>Brass</li>
+								<li>Violin</li>
+								<li>Drums</li>
+							</ul>
+						
+						<br>
+						</div>
+						
+						<h3>Creepy</h3>
+						<div>
+							<audio class="playback" controls='controls' preload="none">
+							<source src="music/creepy.mp3" type="audio/mpeg">
+							Your browser does not support the audio element.
+							</audio>
+						</div>	
+						<div>
+							<p>
+								I used a lot of vibrato on the cello and a screeching swing effect on the violin to give a on edge feel. 
+							</p>
+						<h4>Spitfire Audio LABS</h4>
+						<h6>Instruments used</h6>
+							<ul>
+								<li>glockenspiel</li>
+								<li>Cello</li>
+								<li>Violin</li>
+							</ul>
+						
+						<br>
+						</div>	
+						
+						<h3>Bare Foot Bond</h3>
+						<div>
+							<audio class="playback" controls='controls' preload="none">
+							<source src="music/bond.mp3" type="audio/mpeg">
+							Your browser does not support the audio element.
+							</audio>
+						</div>	
+						<div>
+							<p>
+								This track was created for the Bare Foot Bond game and needed to be suitable for a water sport skiing game. The track used marimbas which gave a tropical bopping feel.
+							</p>
+						<h4>Native Instruments</h4>
+						<h6>Instruments used</h6>
+							<ul>
+								<li>Bass</li>
+								<li>Marimba</li>
+								<li>Drums</li>
+							</ul>
+						
+						<br>
+						</div>	
+			
+					</div>
+				</div>
+			  </div>
+
+</main>
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Anthony Papageorgiou <script>document.write(new Date().getFullYear())</script> <br/>
+	  <a href="https://www.linkedin.com/in/anthony-papageorgiou-b423391bb/" class="fa fa-linkedin" style="font-size:20px;color:white"></a>
+	  <a href="mailto:anthpapag@outlook.com" class="fa fa-envelope" style="font-size:20px;color:white"></a> 
+    </p>
+</div>
+    <!-- /.container -->
+  </footer>
+</body>
+</div>
+
+	<script>
+	$("audio").on("play", function() {
+		$("audio").not(this).each(function(index, audio) {
+			audio.pause();
+		});
+	});
+	</script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
