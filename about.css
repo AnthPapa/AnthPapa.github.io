@@ -1,11 +1,11 @@
 main{
 	 background-color: black;
-	 font-size: 1.5rem;
+	 font-size: 1.4rem;
 	 padding: 2rem;
 	 color: gray;
 						
 	padding-bottom:50px;						
-	  text-shadow: #10d3ab 1px 0 10px;
+	  /*text-shadow: #10d3ab 1px 0 10px;*/
 	  }
 .portfolio-video {
 	overflow:hidden;
@@ -66,4 +66,13 @@ main{
 portfolio-img {
 	margin: 0 auto;
 	width: 100px;
+}
+
+.navbar-brand{
+	padding-left:30px;
+}
+
+h3{
+	color: white;
+	text-shadow: #10d3ab 1px 0 10px;
 }
