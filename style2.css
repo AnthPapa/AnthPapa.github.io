@@ -1,0 +1,28 @@
+
+
+#container{
+	/*min-height:100vh;
+	position:relative;*/
+
+}
+.body { 
+    min-height:100%;
+	
+}
+
+ main{
+	 min-height:80vh;
+	 background-color: black;
+	 font-size: 1.5rem;
+	 padding: 2rem;
+	 color: gray;
+										
+	  /*text-shadow: #10d3ab 1px 0 10px;*/
+	  }
+	  	  .navbar-brand{
+	  padding-left:30px;
+	  }
+	  h3{
+	color: white;
+	text-shadow: #10d3ab 1px 0 10px;
+}
